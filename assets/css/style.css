@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 5px;
+    
 }
 
 body {
@@ -86,18 +87,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+/* Consolidated repeat properties*/
+
+.benefit-lead, .benefit-brand, 
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 
-.benefit-lead h3, .benefit-cost, .benefit-brand {
+.benefit-lead h3, .benefit-cost, 
+.benefit-brand {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.benefit-lead img, .benefit-brand img,
+ .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
