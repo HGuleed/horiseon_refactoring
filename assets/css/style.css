@@ -2,27 +2,33 @@
     box-sizing: border-box;
     padding: 0;
     margin: 5px;
-    
+
 }
 
 body {
     background-color: #d9dcd6;
 }
 
+/* added width property 100% */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    width: 100%;
+    margin-bottom: 0;
+    
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
+/* made margin 0 to flush the word*/
 
 .header h1 .seo {
     color: #d9dcd6;
+    margin: 0;
 }
 
 .header div {
@@ -58,6 +64,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    margin-top: 0;
 }
 
 .float-left {
@@ -79,7 +86,7 @@ p {
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
+    clear: right;
     float: right;
     width: 20%;
     height: 100%;
