@@ -9,7 +9,8 @@ body {
     background-color: #d9dcd6;
 }
 
-/* added width property 100% */
+/*HEADER*/
+
 header{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +25,6 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* made margin 0 to flush the word*/
 
 header h1 .seo {
     color: #d9dcd6;
@@ -56,6 +56,7 @@ a {
 p {
     font-size: 16px;
 }
+/* BACKGROUND IMAGE */
 
 .hero {
     height: 800px;
@@ -66,6 +67,36 @@ p {
     background-position: center;
     margin-top: 0;
 }
+/* Main */
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+main section
+ {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main img
+ {
+    max-height: 200px;
+}
+
+main h2
+ {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+ /* FLOAT ATTRIBUTE*/
 
 .float-left {
     float: left;
@@ -76,14 +107,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-/* added margin top to even out 
-benefits and content divs */
+/* ASIDE CONTENT*/
 
 .benefits {
     margin-right: 20px;
@@ -96,8 +120,6 @@ benefits and content divs */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-/* Consolidated repeat properties as well as selectors */
 
 .benefits section {
     margin-bottom: 32px;
@@ -116,27 +138,8 @@ benefits and content divs */
     max-width: 150px;
 }
 
-.content section
- {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-
-.content img
- {
-    max-height: 200px;
-}
-
-.content h2
- {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/*FOOTER*/
 
 footer {
     padding: 30px;
